@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### `npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion`
+
 ## Available Scripts
 
 In the project directory, you can run:
