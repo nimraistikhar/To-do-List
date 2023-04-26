@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### `npm install`
+
+This peoject is created with Chakra UI
+Install these dependencies
+
 ### `npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion`
 
 ## Available Scripts
