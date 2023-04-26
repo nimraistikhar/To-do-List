@@ -110,7 +110,7 @@ const App = () => {
           marginBottom="10px"
           bg="gray.100"
           mt="20px"
-          style={todo.important ? { background: "orange" } : {}}
+          style={todo.important ? { background: "#87C1FF" } : {}}
         >
           <VStack
             display="flex"
@@ -146,12 +146,12 @@ const App = () => {
 
             </VStack>
             <VStack
-              m="0 !important"
+              m="0 1px !important"
               display="flex"
               flexDir="row"
             >
               <Button
-                m="0 !important"
+                m="0 1px !important"
                 p="0"
                 onClick={() => importantTodo(todo.id)}
               >
@@ -160,7 +160,7 @@ const App = () => {
 
               {todo.id === todoEditing ? (
                 <Button
-                  m="0 !important"
+                  m="0 1px !important"
                   p="0"
                   onClick={() => submitEdits(todo.id)}
                 >
@@ -168,14 +168,14 @@ const App = () => {
                 </Button>
               ) : (
                 <Button
-                  m="0 !important"
+                  m="0 1px !important"
                   onClick={() => setTodoEditing(todo.id)}
                 >
                   <EditIcon fontSize="20px" color="blue.700" />
                 </Button>
               )}
               <Button
-                m="0 !important"
+                m="0 1px !important"
                 p="0"
                 onClick={() => deleteTodo(todo.id)}
               >
